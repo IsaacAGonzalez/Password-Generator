@@ -32,4 +32,4 @@ Similarly if the number is lower than 8 or greater than 128, the user will again
 
 Please check the sourcecode on how the logic handles these checks and how it allows which characters to be used in the password generator.
 
-Enjoy!
+Check it out yourself [here!](https://isaacagonzalez.github.io/Password-Generator/) Enjoy!
