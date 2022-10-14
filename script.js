@@ -41,7 +41,7 @@ function generatePassword() {
     } else if (passwordLength < 8) { // Length at least 8. If not met, function is recalled to start over.
       alert("Error! Your password must be at least 8 characters long. Please enter a valid argument.");
       return generatePassword();
-    } else if (isNaN(parseInt(passwordLength, 10))) { // Checks if prompt input is an integer values, function recalled if not.
+    } else if (isNaN(parseInt(Number(passwordLength), 10))) { // Checks if prompt input is an integer values, function recalled if not.
       alert("Error! Not a valid argument. Please enter an integer value to define password length.");
       return generatePassword();
     } else {
